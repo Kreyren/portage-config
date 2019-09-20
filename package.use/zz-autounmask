@@ -1,0 +1,16 @@
+# package.use# required by dev-python/setuptools-41.2.0::gentoo[python_targets_python2_7]
+# required by dev-python/pyblake2-1.1.2::gentoo
+# required by sys-apps/portage-2.3.76::gentoo[-build,python_targets_python2_7,-python_targets_python3_5,-python_targets_pypy]
+# required by app-admin/perl-cleaner-2.27::gentoo
+# required by dev-lang/perl-5.30.0::gentoo
+# required by perl-core/File-Temp-0.230.900::gentoo
+# required by virtual/perl-File-Temp-0.230.900::gentoo
+>=dev-lang/python-2.7.16:2.7 xml
+# required by dev-python/setuptools-41.2.0::gentoo[python_targets_python3_6]
+# required by dev-python/pyblake2-1.1.2::gentoo
+# required by sys-apps/portage-2.3.76::gentoo[-build,python_targets_python2_7,-python_targets_python3_5,-python_targets_pypy]
+# required by app-admin/perl-cleaner-2.27::gentoo
+# required by dev-lang/perl-5.30.0::gentoo
+# required by perl-core/File-Temp-0.230.900::gentoo
+# required by virtual/perl-File-Temp-0.230.900::gentoo
+>=dev-lang/python-3.6.9:3.6 xml

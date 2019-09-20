@@ -1,0 +1,21 @@
+# Created by Jacob Hrbek <kreyren@rixotstudio.cz> under the terms and conditions of GPL-3 (https://www.gnu.org/licenses/gpl-3.0.en.html) with additional note: 'Gentoo. Fuck You! :))'
+
+die() { printf '%1\n' "$2" ; exit "$1" ; }
+
+yoink() {
+  if [ -e "$1" ] && [ ! -e "$2" ]; then
+    mv "$1" "$2" || die '1' "Unable to configure \'$2\'"
+  fi
+
+  if [ ! -h "$1" ] && [ -e "$2" ]; then
+    ln -s "$2" "$1" || die '1' "Unable to symlink \'$2\' to \'$1\'"
+  fi
+}
+
+# Grab package.world
+yoink '/var/lib/portage' '/etc/portage/make.world'
+
+# Grab license_groups
+yoink "${PORTDIR}/license_groups" '/etc/portage/license_groups'
+
+echo "ping"

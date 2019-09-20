@@ -1,0 +1,5 @@
+### TOOLCHAIN
+#sys-libs/glibc multilib
+
+### Other shit
+>=dev-util/glib-utils-2.58.3 python_single_target_python3_6
