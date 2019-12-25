@@ -1,3 +1,77 @@
+# required by dev-lang/python-3.6.10::gentoo[test]
+# # required by dev-python/greenlet-0.4.15-r1::gentoo[python_targets_python3_6,-doc]
+# # required by dev-python/gevent-1.3.7::gentoo
+# # required by dev-python/socketpool-0.5.3-r2::gentoo[python_targets_python2_7,test]
+# # required by dev-python/restkit-4.2.2::gentoo[test]
+# # required by dev-python/wsgiproxy2-0.4.6::gentoo[python_targets_python2_7,-python_targets_pypy,test]
+# # required by dev-python/webtest-2.0.33::gentoo[test]
+# # required by dev-python/pypiserver-1.3.1-r1::gentoo[test]
+# # required by dev-python/virtualenv-16.7.9::gentoo[test]
+# # required by dev-python/pytest-virtualenv-1.7.0::gentoo[test]
+# # required by dev-python/setuptools-42.0.2::gentoo[test]
+# # required by dev-python/http-parser-0.8.3::gentoo
+# >=app-arch/xz-utils-5.2.4-r3 extra-filters
+# # required by dev-python/attrs-19.3.0::gentoo[python_targets_python2_7,test]
+# # required by dev-python/automat-0.8.0::gentoo[test]
+# # required by dev-python/twisted-19.10.0::gentoo
+# # required by www-servers/tornado-5.1::gentoo[test]
+# # required by dev-python/urllib3-1.25.7::gentoo[python_targets_python3_6,-python_targets_python3_5,test,-python_targets_python3_7,python_targets_python2_7]
+# # required by dev-python/wsgiproxy2-0.4.6::gentoo[test]
+# # required by dev-python/webtest-2.0.33::gentoo[test]
+# # required by dev-python/pypiserver-1.3.1-r1::gentoo[test]
+# # required by dev-python/virtualenv-16.7.9::gentoo[test]
+# # required by dev-python/pytest-virtualenv-1.7.0::gentoo[test]
+# # required by dev-python/setuptools-42.0.2::gentoo[test]
+# # required by dev-python/greenlet-0.4.15-r1::gentoo
+# # required by dev-python/gevent-1.3.7::gentoo
+# # required by dev-python/socketpool-0.5.3-r2::gentoo[python_targets_python2_7,test]
+# # required by dev-python/restkit-4.2.2::gentoo[test]
+# >=dev-lang/python-2.7.17:2.7 sqlite
+# # required by dev-python/hypothesis-4.55.4::gentoo[python_targets_python3_6]
+# # required by dev-python/chardet-3.0.4::gentoo[test]
+# # required by dev-python/requests-2.22.0::gentoo[test]
+# # required by dev-python/wsgiproxy2-0.4.6::gentoo[test]
+# # required by dev-python/webtest-2.0.33::gentoo[test]
+# # required by dev-python/pypiserver-1.3.1-r1::gentoo[test]
+# # required by dev-python/virtualenv-16.7.9::gentoo[test]
+# # required by dev-python/pytest-virtualenv-1.7.0::gentoo[test]
+# # required by dev-python/setuptools-42.0.2::gentoo[test]
+# # required by dev-python/greenlet-0.4.15-r1::gentoo
+# # required by dev-python/gevent-1.3.7::gentoo
+# # required by dev-python/socketpool-0.5.3-r2::gentoo[python_targets_python2_7,test]
+# # required by dev-python/restkit-4.2.2::gentoo[test]
+# >=dev-lang/python-3.6.10:3.6 sqlite
+# # required by net-libs/gnutls-3.6.11.1-r1::gentoo
+# # required by app-crypt/gnupg-2.2.19::gentoo[ssl]
+# # required by dev-vcs/git-2.24.1::gentoo[test]
+# # required by dev-python/setuptools_scm-3.3.1::gentoo[test]
+# # required by dev-python/pytest-mock-1.11.2::gentoo
+# # required by dev-python/requests-2.22.0::gentoo[python_targets_python3_6,-python_targets_python3_5,test,-python_targets_python3_7,python_targets_python2_7]
+# # required by dev-python/wsgiproxy2-0.4.6::gentoo[test]
+# # required by dev-python/webtest-2.0.33::gentoo[test]
+# # required by dev-python/pypiserver-1.3.1-r1::gentoo[test]
+# # required by dev-python/virtualenv-16.7.9::gentoo[test]
+# # required by dev-python/pytest-virtualenv-1.7.0::gentoo[test]
+# # required by dev-python/setuptools-42.0.2::gentoo[test]
+# # required by dev-python/greenlet-0.4.15-r1::gentoo
+# # required by dev-python/gevent-1.3.7::gentoo
+# # required by dev-python/socketpool-0.5.3-r2::gentoo[python_targets_python2_7,test]
+# # required by dev-python/restkit-4.2.2::gentoo[test]
+# >=dev-libs/nettle-3.5.1 gmp
+# # required by dev-python/pycurl-7.43.0.3::gentoo[test]
+# # required by www-servers/tornado-5.1::gentoo[test]
+# # required by dev-python/urllib3-1.25.7::gentoo[python_targets_python3_6,-python_targets_python3_5,test,-python_targets_python3_7,python_targets_python2_7]
+# # required by dev-python/wsgiproxy2-0.4.6::gentoo[test]
+# # required by dev-python/webtest-2.0.33::gentoo[test]
+# # required by dev-python/pypiserver-1.3.1-r1::gentoo[test]
+# # required by dev-python/virtualenv-16.7.9::gentoo[test]
+# # required by dev-python/pytest-virtualenv-1.7.0::gentoo[test]
+# # required by dev-python/setuptools-42.0.2::gentoo[test]
+# # required by dev-python/greenlet-0.4.15-r1::gentoo
+# # required by dev-python/gevent-1.3.7::gentoo
+# # required by dev-python/socketpool-0.5.3-r2::gentoo[python_targets_python2_7,test]
+# # required by dev-python/restkit-4.2.2::gentoo[test]
+# >=net-misc/curl-7.67.0-r1 http2
 # package.use# required by dev-python/setuptools-41.2.0::gentoo[python_targets_python2_7]
 # required by dev-python/pyblake2-1.1.2::gentoo
 # required by sys-apps/portage-2.3.76::gentoo[-build,python_targets_python2_7,-python_targets_python3_5,-python_targets_pypy]
