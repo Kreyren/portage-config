@@ -1,0 +1,8 @@
+[DEFAULT]
+main-repo = gentoo
+
+[kreytoo]
+location = /etc/portage/overlays/kreytoo/
+sync-type = git
+sync-uri = git+ssh://git@github.com:Kreyren/kreytoo.git
+auto-sync = no
